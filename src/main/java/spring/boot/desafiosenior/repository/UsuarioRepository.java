@@ -1,4 +1,4 @@
-package spring.boot.desafiosenior.model.repository;
+package spring.boot.desafiosenior.repository;
 
 import org.springframework.stereotype.Component;
 import spring.boot.desafiosenior.model.Usuario;
