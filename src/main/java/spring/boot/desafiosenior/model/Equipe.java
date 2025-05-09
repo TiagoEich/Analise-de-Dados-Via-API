@@ -13,6 +13,6 @@ public class Equipe {
 
     private String nome;
     private boolean lider;
-    private List<Projeto> projeto;
+    private List<Projeto> projetos;
 
 }
