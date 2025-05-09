@@ -1,18 +1,17 @@
 package spring.boot.desafiosenior.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
 public class InsightEquipe {
 
-    private String equipe;
-    private int totalMembros;
+    private String nome;
+    private int membros;
     private int lideres;
     private int projetosConcluidos;
-    private double percentualAtivo;
-
+    private double percentualAtivos;
 }
